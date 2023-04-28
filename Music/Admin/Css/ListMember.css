@@ -1,0 +1,48 @@
+.content-header {
+    padding: 15px 0.5rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label{
+    font-weight: 700;
+}
+
+h1, .card-title{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.card {
+    box-shadow: 0 0 1px rgb(0 0 0 / 13%), 0 1px 3px rgb(0 0 0 / 20%);
+    margin-bottom: 1rem;
+}
+
+.card-header{
+    background-color: transparent !important;
+}
+
+.table>:not(caption)>*>*{
+    padding: 0.75rem !important;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background-color: #ffff99;
+}
+
+td , td a i{
+    vertical-align: middle;
+}
+
+/*Pagination button*/
+.pagination a.active {   
+    background-color: #0A58CA;   
+} 
+
+.pagination a.active::before {
+    background-color: #0A58CA ;
+}
+.pagination a:hover:not(.active) {   
+    background-color: #e9ecef;   
+}
